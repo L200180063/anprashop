@@ -1,0 +1,241 @@
+.container {
+	display: flex;
+	width: 95%;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+.am {
+	position: relative;
+	background-color: #FAFAFA;
+	color: #424242;
+	border-radius: 4px;
+	padding: 2rem 3rem 3rem 2rem;
+	margin: 0 1.5rem;
+	box-shadow: 
+	0 1px 3px rgba(0,0,0,0.12),
+	0 1px 2px rgba(0,0,0,0.24);
+}
+.am-ava {
+	border-radius: 50%;
+	max-width: 4rem;
+	position: absolute;
+	top: -1.5rem;
+	left: -1rem;
+	right: 0;
+	margin: 0 auto;
+	box-shadow: 
+	0 3px 6px rgba(0,0,0,0.16),
+	0 3px 6px rgba(0,0,0,0.32);
+}
+.am-isi {
+	text-align: center;
+	margin: 1.5rem 0 1rem 0;
+}
+.user-title {
+	font-size: 1.15rem;
+	margin-top: .5rem; 
+}
+.user-sub {
+	color: #BDBDBD;
+	margin-top: .4rem;
+	font-size: .85rem;
+	letter-spacing: .03rem;
+}
+.profil {
+	text-align: center;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.85rem;
+}
+.profil i {
+	color: rgba(248,85,40,1.0);
+}
+.profil a {
+	font-weight: bold;
+}
+
+.dt-profil span, .dt-profil input {
+	font-family: "OCR-A BT", "Prestige Elite Std Bold", "Rockwell";
+	color: #eee;
+}
+.dt-profil span {
+	display: inline-block;
+}
+.dt-profil input {
+	/*display: block;*/
+	background-color: transparent;
+	border: none;
+	color: #eee;
+	padding: 10px;
+	margin: 10px auto;
+}
+.dt-profil input:focus {
+  color: #FFFFFF;
+  background-color: transparent;
+  border-color: rgba(97,193,47,1.00);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.50);
+}
+.profil-container {
+	display: block;
+	margin-top: 50px;
+	padding: 40px auto;
+}
+.profil-nama {
+	display: flex;
+	margin: 20px auto;
+	font-size: 24px;
+	font-weight: 200;
+	text-align: center;
+}
+.profil-id {
+	font-size: 24px;
+	font-weight: 200;
+	float: right;
+}
+.profil-info {
+	display: block;
+	margin-top: 10px; 
+	font-size: 10px;
+	color: rgba(255,255,255,0.5);
+}
+
+
+.tambahkan-title {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding: 5px 10px 0;
+}
+.tambahkan{
+	margin-left: auto;
+	margin-right: auto;
+	width: 360px;
+	height: auto;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.10);
+}
+.tambahkan1 {
+	display: block;
+	margin: 8px auto 12px;
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	border-bottom: 2px solid rgba(255,255,255,0.10);
+	transition: all 0.15s linear;
+}.tambahkan1:focus {
+	color: #fff;
+}
+.tambahkan1:-ms-input-placeholder {
+  color: rgba(255,255,255,0.10);
+  opacity: 1;
+}
+.tambahkan1::placeholder {
+  color: rgba(255,255,255,0.10);
+  opacity: 1;
+}
+.tambahkan1:hover{
+	border-bottom: 2px solid rgba(255,255,255,1.00);
+	height: 36px
+}
+.tambahkan2{
+	color: #fff;
+}
+.tambahkan3 {
+	color: rgba(255,255,255,0.10);
+}
+.kirim-2{
+	background-color: rgba(97,193,47,1.00);
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	width: auto;
+	height: 30px;
+	padding: 5px 15px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.kirim-2:hover {
+	box-shadow: 0 0 10px rgba(97,193,47,0.70);
+}
+.reset-2{
+	background-color: transparent;
+	color: rgba(97,193,47,1.00);
+	border: 1px solid rgba(97,193,47,1.00);
+	border-radius: 5px;
+	width: auto;
+	height: 30px;
+	padding: 5px 15px;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+.kirim-3{
+	background-color: rgba(39,87,248,1.00);
+	color: #FFF;
+	border: none;
+	width: auto;
+	height: 30px;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+.kirim-3:hover {
+	box-shadow: 0 0 10px rgba(39,87,248,0.70);
+}
+.reset-3{
+	background-color: transparent;
+	color: rgba(39,87,248,1.00);
+	border: 1px solid rgba(39,87,248,1.00);
+	width: auto;
+	height: 30px;
+	padding: 5px 15px;
+	cursor: pointer;
+	margin-left: 10px
+}
+
+
+.kirim-4:hover, .reset-4:hover {
+	cursor: pointer;
+	border: 1px solid rgba(255,255,255,0.5);
+	color: rgba(255,255,255,1.0);
+}
+
+.card-bg {
+	position: absolute;
+	transform: translateX(25%);
+	transform: translateY(-10%);
+	transform: rotate(-25deg);
+	width: 500px;
+	height: 250px;
+	border-radius: 30px;
+	background: linear-gradient(45deg, #FB903F, #FDCA70);
+}
+.card {
+	position: relative;
+	display: flex;
+	width: 500px;
+	height: 250px;
+	border-radius: 30px;
+	border: 1px solid rgba(255,255,255,0.5);
+	background: linear-gradient(45deg, rgba(251,146,65,0.15), rgba(253,200,110,0.15));
+	color: #fff;
+	padding: 3rem;
+	backdrop-filter: blur(80px);
+
+}
+​
+.card__visa {
+	float: right;
+  width: 4rem;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}
+​
+

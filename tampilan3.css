@@ -1,0 +1,261 @@
+/* CSS Document */
+
+/*Mengatur default pada body*/
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #FFFFFF;
+	color: #171717;
+	cursor: default;
+}
+/*Mengatur default a*/
+a {
+	text-decoration: none;
+	color: #171717;
+}
+
+
+.loginform {
+	position: absolute;
+	text-align: center;
+}
+.loginform img {
+	width: 95%
+}
+
+.flowchart {
+	text-align: center;
+	margin: 100px auto;
+	padding: 20px;
+}
+
+.input-icon {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 15px;
+	top: 5;
+	padding: 10px;
+	display: inline-block;
+	transform: translateZ(50px);
+}
+.box {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 35rem;
+  	height: 25em;
+  	transform: perspective(1000px);
+  	transform-style: preserve-3d;
+  	border-radius: 8px;
+  	box-shadow: 0 15px 10px rgba(254,240,209,0.20), 
+		0 19px 20px rgba(194,159,253,0.40);
+  	transition: all 200ms ease-out;
+	z-index: 1;
+}
+.box-title {
+	color: #fff;
+  	font-size: 1.9rem;
+  	font-weight: 600;
+	margin: 10px 10px 30px;
+	display: block;
+  	transform: translateZ(50px);
+	opacity: 1;
+}
+.box-input {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 10px 15px;
+	margin: 10px;
+	display: block;
+	transform: translateZ(50px);
+}
+.box-input2 {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 10px 15px;
+	margin: 10px;
+	transform: translateZ(50px);
+}
+.box-input:focus {
+	color: #000000;
+	background-color: transparent;
+	border: none;
+}
+/*Untuk Chrome, Firefox, Opera, Safari*/
+.box span input::placeholder {
+	color: rgba(255,255,255,0.50);
+}
+/*Untuk Microsoft Edge*/
+::ms-input-placeholder {
+	color: rgba(255,255,255,0.50);
+}
+.btn-kirim {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 10px 15px;
+	margin: 10px;
+	display: block;
+	transform: translateZ(50px);
+}
+.btn-kirim:hover {
+	background-color: rgba(255,255,255,0.27);
+	cursor: pointer;
+}
+.balls {
+	position: absolute;
+  	top: 1.5rem;
+  	right: 2rem;
+}
+
+.moving-gradient {
+	background: linear-gradient(150deg, #C29FFD, #FFB4DC, #FEF0D1);
+	background-size: 200% 200%;
+	animation: moveGradient 10s ease infinite;
+}
+@keyframes moveGradient {
+	0% {background-position: 0 50%;}
+	50% {background-position: 100% 100%;}
+	100% {background-position: 50% 0;}
+}
+
+.headmenu {
+	margin: 0 auto 20px;
+	background-color: aliceblue;
+	padding: 10px 20px;
+	position: relative;
+  	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+.headmenu span img {
+	height: 30px;
+	filter: drop-shadow(5px 5px 10px rgba(8,14,44,0.50));
+	position: relative;
+  	display: inline-block;
+  	margin-right: 10px;
+	z-index: 0;
+}
+.headmenu2 {
+	font-weight: bold;
+	color: #F85528;
+	text-shadow: 5px 5px 10px rgba(8,14,44,0.30);
+	font-size: 36px;
+}
+.submenu {
+	background-color: aliceblue;
+	padding: 10px;
+	margin: 30px auto;
+	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	z-index: 0;
+}
+.submenu a {
+	color: #C29FFD;
+	font-weight: bold;
+}
+.submenu a:hover {
+	cursor: pointer;
+}
+
+/*
+body {
+	background: url(gambar/gambar-home/login-wallpaper.png) no-repeat;
+	background-size: cover;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+*/
+.container {
+	margin : 20% auto;
+	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	width: 30rem;
+	height: 20rem;
+	border-radius: 5px;
+	border: 1px solid rgba(236,244,241,0.5);
+	background-color: rgba(255,255,255,0.15);
+	backdrop-filter: blur(20px);
+	padding: 10px;
+	z-index: 1;
+}
+.container span input::placeholder {
+	color: rgba(255,255,255,0.50);
+}
+.input {
+	background-position: 10px 7px;
+	background-size: 20px 20px;
+  	background-repeat: no-repeat;
+  	padding: 10px 10px 10px 40px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	margin: 10px;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	transform: translateZ(50px);
+}
+.input:focus {
+  color: #FFFFFF;
+  background-color: transparent;
+  border-color: rgba(255,255,255,1.00);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.50);
+}
+.input:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.input::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.input-ava {
+  	background-image: url('gambar/icon/avatar icon-w.svg');
+}
+.input-pas {
+  	background-image: url('gambar/icon/password icon-w.svg');
+}
+.input-ful {
+  	background-image: url('gambar/icon/fullname icon-w.svg');
+}
+.input-kirim {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 10px 15px;
+	margin: 10px;
+	display: block;
+	transform: translateZ(50px);
+}
+.input-kirim:hover {
+	background-color: rgba(255,255,255,0.27);
+	cursor: pointer;
+}
+
+
+footer {
+	margin-top: 50px;
+	background-color: #2d2d2d;
+	color: rgba(255,255,255,0.20);
+	padding: 10px;
+	box-shadow: -10px 0 0 #080E2C,
+		10px 0 0 #080E2C;
+}
+footer a {
+	color: rgba(255,255,255,0.50);
+}
