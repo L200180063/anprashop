@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <!doctype html>
 <html>
 <head>
@@ -12,9 +15,7 @@
 	<link rel="stylesheet" href="tampilan2.css">
 	<link rel="stylesheet" href="style.css">
 </head>
-<?php 
-	session_start();
- ?>
+
 <body>
 	<div class="header-sticky">
 		<div class="header">
@@ -38,7 +39,7 @@
 	require 'koneksi.php';
 	require 'item.php';
 
-	if(isset($_GET["id_barang"]) && !isset($_POST['update']))  { 
+	if(isset($_GET['id_barang']) && !isset($_POST['update']))  { 
 		$sql = "SELECT * FROM product WHERE id_barang=".$_GET['id_barang'];
 		$result = mysqli_query($conn, $sql);
 		$product = mysqli_fetch_object($result);
@@ -127,11 +128,14 @@
 	</form>
 	<br>
 	<span class="lanjut-belanja">
-	<a href="loginmember.php#konten"><img src="gambar/icon/shopnow icon-b.svg" class="img-btn">Lanjutkan Belanja</a> 
+		<a href="loginmember.php#konten"><img src="gambar/icon/shopnow icon-b.svg" class="img-btn">Lanjutkan Belanja</a> 
+	</span>
+	<span class="lanjut-belanja">
+		<a href="checkout.php"><img src="gambar/icon/shopnow icon-b.svg" class="img-btn">Checkout</a> 
 	</span>
 
 	<?php 
-	if(isset($_GET["id"]) || isset($_GET["index"])){
+	if(isset($_GET["id_barang"]) || isset($_GET["index"])){
 		header('Location: cart.php');
 	} 
 	?>
@@ -142,10 +146,10 @@
 	<footer>
 		<center>
 		<span style="display: block; margin: 20px auto">&#169 Copyright Anang Prasetyo 2020</span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/ig-icon-rsb.svg"></a></span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/wa-icon-rsb.svg"></a></span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/pinterest-icon-rsb.svg"></a></span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/github-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://www.instagram.com/pra_anang/" target="_blank"><img src="gambar/icon/ig-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://api.whatsapp.com/send?phone=82133938464" target="_blank"><img src="gambar/icon/wa-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://id.pinterest.com/pra_anang/_saved/" target="_blank"><img src="gambar/icon/pinterest-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://github.com/L200180063" target="_blank"><img src="gambar/icon/github-icon-rsb.svg"></a></span>
 		</center>
 	</footer>
 	

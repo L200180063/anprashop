@@ -106,32 +106,6 @@
 	</div>
 	
 
-	<!-- <div id="create" class="menu-crud">
-	<table>
-		<tr>
-			<td height="80px"></td>
-		</tr>
-		<tr>
-			<td height="80px"><span class="tbl-title">Create</span></td>
-		</tr>
-		<tr>
-			<td>
-				<form action="tambahkan.php" method="POST" enctype="multipart/form-data" class="tambahkan">	
-					<span class="tambahkan-title">Masukkan Data Barang</span>
-					<input type="text" name="nama_barang" id="nama_barang" placeholder="Nama Barang" class="tambahkan1 tambahkan2" required/>
-					<input type="text" name="harga_barang" id="harga_barang" placeholder="Harga Barang" class="tambahkan1 tambahkan2" required/>
-					<input type="text" name="warna_barang" id="warna_barang" placeholder="Warna Barang" class="tambahkan1 tambahkan2" required/>
-					<input type="number" name="quantity" id="quantity" min="1" placeholder="Quantity" class="tambahkan1 tambahkan2" required/>
-					<span>Gambar Barang</span>
-					<input type="file" name="gambar_barang" id="gambar_barang" class="tambahkan1 tambahkan2" required/>
-					<input type="submit" id="submit" name="submit" value="Kirim" class="kirim">
-					<input type="reset" name="reset" value="Reset" class="reset">
-				</form>
-			</td>
-		</tr>
-	</table>
-	</div> -->
-
 	<div id="read">
 		<table>
 			<tr>
@@ -212,10 +186,10 @@
 	<footer>
 		<center>
 		<span style="display: block; margin: 20px auto">&#169 Copyright Anang Prasetyo 2020</span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/ig-icon-rsb.svg"></a></span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/wa-icon-rsb.svg"></a></span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/pinterest-icon-rsb.svg"></a></span>
-		<span class="foo-img"><a href=""><img src="gambar/icon/github-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://www.instagram.com/pra_anang/" target="_blank"><img src="gambar/icon/ig-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://api.whatsapp.com/send?phone=82133938464" target="_blank"><img src="gambar/icon/wa-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://id.pinterest.com/pra_anang/_saved/" target="_blank"><img src="gambar/icon/pinterest-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://github.com/L200180063" target="_blank"><img src="gambar/icon/github-icon-rsb.svg"></a></span>
 		</center>
 	</footer>
 	

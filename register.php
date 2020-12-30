@@ -74,14 +74,20 @@
 		<span>Sudah punya akun? <a href="login.php">Login</a></span>
 	</div>
 	
-	<div class="flowchart">
+	<!-- <div class="flowchart">
 		<h1>Flowchart</h1>
 		<img src="gambar/gambar-home/flowchart anprashop.png" width="60%">
-	</div>
+	</div> -->
 
 
 	<footer>
-		<center><p>&#169 Copyright Anang Prasetyo 2020</p></center>
+		<center>
+		<span style="display: block; margin: 20px auto">&#169 Copyright Anang Prasetyo 2020</span>
+		<span class="foo-img"><a href="https://www.instagram.com/pra_anang/" target="_blank"><img src="gambar/icon/ig-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://api.whatsapp.com/send?phone=82133938464" target="_blank"><img src="gambar/icon/wa-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://id.pinterest.com/pra_anang/_saved/" target="_blank"><img src="gambar/icon/pinterest-icon-rsb.svg"></a></span>
+		<span class="foo-img"><a href="https://github.com/L200180063" target="_blank"><img src="gambar/icon/github-icon-rsb.svg"></a></span>
+		</center>
 	</footer>
 </body>
 </html>

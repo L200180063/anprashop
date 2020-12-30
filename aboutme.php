@@ -45,9 +45,9 @@
 				"Assalamualaikum perkenalkan nama saya <i>Anang Prasetyo</i> nim <i>L200180063</i> kelas <i>C</i> mata kuliah <i>Praktikum Pemrograman Web</i>. Website ini dibuat untuk memenuhi tugas akhir Praktikum Pemrograman Web. Saya minta maaf apabila di dalam web ini masih banyak kekurangan karena keterbatasan waktu dan keterbatasan kemampuan saya."
 			</p>
 			<p class="profil">
-				Website ini dibangun dengan referensi dari : <b>Modul Praktikum Pemrograman Web</b>, <a href="https://www.w3schools.com" target="_blank">W3School</a>, <a href="https://instagram.com/webdev.tips?igshid=1eeplj8f4sjjx" target="_blank">WebDevTips</a> dan <a href="https://www.eduardo-araujo.com" target="_blank">Eduardo Araujo</a>.
+				Website ini dibangun dengan referensi dari : <b>Modul Praktikum Pemrograman Web</b>, <a href="https://www.w3schools.com" target="_blank">W3School</a>, <a href="https://instagram.com/webdev.tips?igshid=1eeplj8f4sjjx" target="_blank">WebDevTips</a>, <a href="https://www.eduardo-araujo.com" target="_blank">Eduardo Araujo</a> dan <a href="https://www.codepolitan.com/tutorial-membuat-shopping-cart-dengan-php-59a38b4aa047a" target="_blank">Codepolitan</a>.
 			</p>
-			<p class="profil">Dengan sumber gambar dan icon dari : <a href="https://www.freepik.com">Freepik</a> dan <a href="https://www.etsy.com" target="_blank">Etsy</a>.</p>
+			<p class="profil">Dengan sumber icon dan gambar dari : <a href="https://www.freepik.com">Freepik</a> dan <a href="https://www.etsy.com" target="_blank">Etsy</a>.</p>
 			<p class="profil">Inspirasi warna dari : <a href="https://instagram.com/awsmcolor?igshid=10q01aewpnrkx" target="_blank">Awsmcolor</a>.</p>
 		</div>
 	</div>
